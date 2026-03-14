@@ -39,13 +39,13 @@ const Dashboard = () => {
         Create Resume
       </button>
 
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
         {resumes.map((resume) => (
 
           <div
             key={resume._id}
-            className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+            className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition w-full"
           >
 
             <h2 className="text-xl font-semibold">{resume.title}</h2>
