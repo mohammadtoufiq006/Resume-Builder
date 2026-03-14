@@ -2,6 +2,11 @@
 
 A web application that allows users to create, edit, preview, and download resumes using predefined templates.
 
+## Live Demo
+```
+https://resume-builder-gamma-six-87.vercel.app/
+```
+
 ## Tech Stack
 
 Frontend
